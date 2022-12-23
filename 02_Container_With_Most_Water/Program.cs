@@ -1,7 +1,4 @@
-﻿int[] array = new int[] { 4, 3, 2, 1, 4 };
-Console.WriteLine(GetAreaOfContainerWithMostWater(array));
-
-int GetAreaOfContainerWithMostWater(int[] array)
+﻿int GetAreaOfContainerWithMostWater(int[] array)
 {
     var (firstMarker, indexFirstMarker) = (array[0], 0);
     var (secondMarker, indexSecondMarker) = (array[array.Length - 1], array.Length - 1);
